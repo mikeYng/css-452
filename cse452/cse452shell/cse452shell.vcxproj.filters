@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{51fb3844-7f27-4e54-8807-69be03156f14}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6a7bcab1-595d-4a00-beef-c611d1ddadea}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{4bcaa81b-1681-4b32-ad8d-93102b62ba29}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Brush">
+      <UniqueIdentifier>{91b36a48-acd2-483d-87ae-55dc896af60b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shapes">
+      <UniqueIdentifier>{0d43e8b5-02cc-4040-8b9b-16816fd371dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rendering">
+      <UniqueIdentifier>{61e70954-a07b-4824-86cc-4cff7786c165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{345cb77c-9521-4735-b64f-f2b8e0c18ed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sceneview">
+      <UniqueIdentifier>{a055ed68-fb25-4d76-9822-3f0aa41806c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Intersect">
+      <UniqueIdentifier>{e43b0b99-2c28-4059-a70e-c4d16b54ce08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interactive">
+      <UniqueIdentifier>{377e8eea-0be8-4a27-a618-2194d1c32ded}</UniqueIdentifier>
+      <Extensions>*.cpp *.h</Extensions>
+    </Filter>
+    <Filter Include="vecmath">
+      <UniqueIdentifier>{7cb921cf-1f9e-4e64-b6dc-0116d09271ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GLWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShellInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UIInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="brush\BrushInterface.cpp">
+      <Filter>Brush</Filter>
+    </ClCompile>
+    <ClCompile Include="brush\MyBrush.cpp">
+      <Filter>Brush</Filter>
+    </ClCompile>
+    <ClCompile Include="brush\MyBrush_UI.cpp">
+      <Filter>Brush</Filter>
+    </ClCompile>
+    <ClCompile Include="shapes\ShapesInterface.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="shapes\ShapesUI.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\MyScene_render.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderingInterface.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderingUI.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="camera\Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="camera\CameraInterface.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="camera\CameraUI.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="camera\IBar.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneview\MyScene.cpp">
+      <Filter>Sceneview</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneview\MyScene_draw.cpp">
+      <Filter>Sceneview</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneview\SceneviewInterface.cpp">
+      <Filter>Sceneview</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneview\SceneviewUI.cpp">
+      <Filter>Sceneview</Filter>
+    </ClCompile>
+    <ClCompile Include="intersection\IntersectionInterface.cpp">
+      <Filter>Intersect</Filter>
+    </ClCompile>
+    <ClCompile Include="intersection\IntersectionUI.cpp">
+      <Filter>Intersect</Filter>
+    </ClCompile>
+    <ClCompile Include="interactive\InteractiveInterface.cpp">
+      <Filter>Interactive</Filter>
+    </ClCompile>
+    <ClCompile Include="interactive\InteractiveUI.cpp">
+      <Filter>Interactive</Filter>
+    </ClCompile>
+    <ClCompile Include="interactive\InteractiveWidget.cpp">
+      <Filter>Interactive</Filter>
+    </ClCompile>
+    <ClCompile Include="interactive\MyScene_select.cpp">
+      <Filter>Interactive</Filter>
+    </ClCompile>
+    <ClCompile Include="vecmath\Matrix3.cpp">
+      <Filter>vecmath</Filter>
+    </ClCompile>
+    <ClCompile Include="vecmath\Matrix4.cpp">
+      <Filter>vecmath</Filter>
+    </ClCompile>
+    <ClCompile Include="vecmath\Point3.cpp">
+      <Filter>vecmath</Filter>
+    </ClCompile>
+    <ClCompile Include="vecmath\ScreenPoint.cpp">
+      <Filter>vecmath</Filter>
+    </ClCompile>
+    <ClCompile Include="vecmath\ScreenVector.cpp">
+      <Filter>vecmath</Filter>
+    </ClCompile>
+    <ClCompile Include="vecmath\Vector3.cpp">
+      <Filter>vecmath</Filter>
+    </ClCompile>
+    <ClCompile Include="vecmath\Vector4.cpp">
+      <Filter>vecmath</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cse452.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UIInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="brush\BrushInterface.h">
+      <Filter>Brush</Filter>
+    </ClInclude>
+    <ClInclude Include="brush\MyBrush.h">
+      <Filter>Brush</Filter>
+    </ClInclude>
+    <ClInclude Include="shapes\ShapesInterface.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="shapes\ShapesUI.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\RenderingInterface.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\RenderingUI.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="camera\Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="camera\CameraInterface.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="camera\CameraUI.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="camera\IBar.H">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneview\Light.h">
+      <Filter>Sceneview</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneview\MyScene.h">
+      <Filter>Sceneview</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneview\parser.h">
+      <Filter>Sceneview</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneview\SceneviewInterface.h">
+      <Filter>Sceneview</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneview\SceneviewUI.h">
+      <Filter>Sceneview</Filter>
+    </ClInclude>
+    <ClInclude Include="intersection\HitRecord.h">
+      <Filter>Intersect</Filter>
+    </ClInclude>
+    <ClInclude Include="intersection\IntersectionInterface.h">
+      <Filter>Intersect</Filter>
+    </ClInclude>
+    <ClInclude Include="intersection\IntersectionUI.h">
+      <Filter>Intersect</Filter>
+    </ClInclude>
+    <ClInclude Include="interactive\InteractiveInterface.h">
+      <Filter>Interactive</Filter>
+    </ClInclude>
+    <ClInclude Include="interactive\InteractiveUI.h">
+      <Filter>Interactive</Filter>
+    </ClInclude>
+    <ClInclude Include="interactive\InteractiveWidget.h">
+      <Filter>Interactive</Filter>
+    </ClInclude>
+    <ClInclude Include="vecmath\Matrix3.h">
+      <Filter>vecmath</Filter>
+    </ClInclude>
+    <ClInclude Include="vecmath\Matrix4.h">
+      <Filter>vecmath</Filter>
+    </ClInclude>
+    <ClInclude Include="vecmath\Point3.h">
+      <Filter>vecmath</Filter>
+    </ClInclude>
+    <ClInclude Include="vecmath\ScreenPoint.h">
+      <Filter>vecmath</Filter>
+    </ClInclude>
+    <ClInclude Include="vecmath\ScreenVector.h">
+      <Filter>vecmath</Filter>
+    </ClInclude>
+    <ClInclude Include="vecmath\Vector3.h">
+      <Filter>vecmath</Filter>
+    </ClInclude>
+    <ClInclude Include="vecmath\Vector4.h">
+      <Filter>vecmath</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="cse452shell.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
